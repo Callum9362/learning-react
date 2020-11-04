@@ -1,13 +1,11 @@
-import './App.css';
-import HelloWorld from './components/HelloWorld'
-import CounterExample from './components/CounterExample'
+import './app.css';
+import Header from './components/Header'
 
 
 function App() {
   return (
    <div>
-     {/* <HelloWorld name="Callum"/> */}
-     <CounterExample />
+     <Header />
    </div>
   );
 }
